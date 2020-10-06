@@ -20,11 +20,14 @@
         
         
 ## Порядок работы
-1. class MainActivity -> fun onCreate 
+1. class MainActivity -> fun onCreate
    1. создается обьект адаптера(MyAdapter) + в него передается обьект с данными для списка
    2. У обьект
-   3. Создается вьюшка RecyclerView - myrecyclerView
-   4. В вью myrecyclerView передается обьект MyAdapter
-    #TODO
+   3. Создается вью RecyclerView - myrecyclerView
+   5. Адаптеру  myrecyclerView присваивается обьект MyAdapter
+2. MyAdapter
+   1. В  адаптер передается коллекция или массив элементов для списка
+   2. Сам класс MyAdapter наследуется от Абстрактного класса Адаптера фреймфорка. В который передается внутрений класс  MyAdapter - MyViewHolder.
+   3. 
     
     
